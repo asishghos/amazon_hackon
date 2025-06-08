@@ -24,9 +24,6 @@ const MXPlayerUI = () => {
     const languages = [
         { id: 'all', label: 'All Languages' },
         { id: 'hindi', label: 'Hindi' },
-        { id: 'tamil', label: 'Tamil' },
-        { id: 'telugu', label: 'Telugu' },
-        { id: 'malayalam', label: 'Malayalam' },
         { id: 'kannada', label: 'Kannada' }
     ];
 
@@ -131,13 +128,13 @@ const MXPlayerUI = () => {
             <header className="bg-black border-b border-gray-800">
                 <div className="flex items-center justify-between px-6 py-3">
                     <div className="flex items-center space-x-8">
-                        <div className="flex items-center space-x-2">
+                        {/* <div className="flex items-center space-x-2">
                             <span className="text-white font-bold text-xl">amazon</span>
                             <div className="flex items-center bg-blue-600 rounded px-2 py-1">
                                 <Play className="w-4 h-4 text-white mr-1" />
                                 <span className="text-white font-semibold text-sm">MXPLAYER</span>
                             </div>
-                        </div>
+                        </div> */}
 
                         <nav className="hidden md:flex space-x-6" role="navigation" aria-label="Main navigation">
                             <a href="#" className="text-blue-400 hover:text-blue-300" aria-current="page">Home</a>
