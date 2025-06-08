@@ -147,6 +147,13 @@ const MXPlayerUI = () => {
                     </div>
 
                     <div className="flex items-center space-x-4">
+                        <a
+                            href="/aiFeatures"
+                            className="bg-gradient-to-r from-amber-100 to-orange-200 text-black px-6 py-3 rounded-lg font-semibold flex items-center space-x-2 hover:from-amber-500 hover:to-orange-600 transition-all shadow-lg"
+                            aria-label="Go to Prime Watch Party"
+                        >
+                            <span>AI Features</span>
+                        </a>
                         <div className="relative">
                             <Search className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" aria-hidden="true" />
                             <input
