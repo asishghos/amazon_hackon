@@ -454,7 +454,7 @@ const WatchPartyPlatform = () => {
                 <div className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-50">
                     <div className={`rounded-lg p-6 w-full max-w-md border shadow-2xl ${theme === 'dark' ? 'bg-slate-800 border-slate-700' : 'bg-white border-gray-200'}`}>
                         <div className="flex items-center justify-between mb-4">
-                            <h3 className="text-lg font-semibold">Add New Video</h3>
+                            <h3 className="text-lg font-semibold">Add a New movie/show</h3>
                             <button
                                 onClick={() => setShowAddVideo(false)}
                                 className={`p-1 rounded transition-colors ${theme === 'dark' ? 'text-slate-400 hover:text-white hover:bg-slate-700' : 'text-gray-600 hover:text-gray-900 hover:bg-gray-200'}`}
@@ -464,12 +464,12 @@ const WatchPartyPlatform = () => {
                         </div>
                         <div className="space-y-4">
                             <div>
-                                <label className={`block text-sm font-medium mb-2 ${theme === 'dark' ? 'text-slate-300' : 'text-gray-700'}`}>Video URL</label>
+                                <label className={`block text-sm font-medium mb-2 ${theme === 'dark' ? 'text-slate-300' : 'text-gray-700'}`}>Search</label>
                                 <input
                                     type="url"
                                     value={newVideoUrl}
                                     onChange={(e) => setNewVideoUrl(e.target.value)}
-                                    placeholder="https://youtube.com/watch?v=..."
+                                    placeholder="Type a movie/show name..."
                                     className={`w-full px-3 py-2 rounded-md border focus:outline-none focus:ring-1 focus:ring-blue-500/50 transition-all ${theme === 'dark' ? 'bg-slate-700 text-white border-slate-600 focus:border-blue-500' : 'bg-gray-100 text-gray-900 border-gray-300 focus:border-blue-500'}`}
                                 />
                             </div>
